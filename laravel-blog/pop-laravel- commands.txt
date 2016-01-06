@@ -1,0 +1,5 @@
+Migrate 
+
+	-create-migration : php artisan make:migration create_tasks_table
+	-reset : php artisan migration:reset
+	-migrate to database : php artisan migrate
