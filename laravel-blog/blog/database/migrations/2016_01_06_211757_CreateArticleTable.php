@@ -17,8 +17,8 @@ class CreateArticleTable extends Migration
     		$table->increments('id');
     		$table->string("articleTitle");
     		$table->string("articleSubTite");
-    		$table->date("publishDate");
-    		$table->date("modifiedDate");
+    		$table->timestamp("publishDate");
+    		$table->timestamp("modifiedDate");
     		$table->string("articleBody");
     		$table->string("articleSummry");
     	});
